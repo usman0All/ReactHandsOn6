@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+body{
+  background-image: linear-gradient(lightblue, pink,transparent);
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow-y: hidden;
+}
+.Home-Heading{
+position: absolute; top: 15%; left: 5%;
+font-size: xx-large;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ContactUs-Heading{
+  position: absolute; top: 15%; left: 5%;
+  font-size: xx-large;
+  
+
+}
+table{
+  border-collapse: collapse;
+  width: 80%;
+  position:absolute; top: 25%;
+  background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+tr{
+  border: 2px solid grey;
+  height: 35px; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+td{
+  padding-left: 70px;
+  padding-top:15px 15px;
+}
+
+
+.Data-Container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.Table-Head{
+  font-weight:bold ;
+}
+
+.Student-Heading{
+  font-size: 35px;
+  position: absolute; top: 14%;
+  font-weight:bold ;
+}
+
+
+.New-Student-Button{
+  position: absolute; left: 80%; top: 15%;
+  padding: 5px;
+  width: 200px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.Button-Text{
+text-decoration: none;
+color: black;
+}
+
+.Nav-Container{
+  font-style: italic;
+  font-size: 25px;
+  border: 2px solid rgba(0, 0, 0, 0);
+  width: 98.9%;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  position: absolute; top: 2.5%; left: 0%; 
+  background-color: blue;
+}
+
+.Nav-Bar{
+  text-decoration: none;
   color: white;
+  
+}
+.Form-Container{
+border: 2px solid rgba(0, 0, 0, 0);
+position: absolute; top: 20%; left: 5%;
+width: 90%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.Form-Data{
+  background-color: transparent;
+  padding: 15px;
+  margin: 40px;
+  width: 400px; 
+  font-size: 15px;
+  border-radius: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Submit-Data-Buttons{
+  width: 500px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+position: relative; left: 20%;
+}
+
+.Cancel-Button{
+  padding: 5px;
+  width: 200px;
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+.Submit-Button{
+  padding: 5px;
+  width: 200px;
+  border-radius: 13px;
+  cursor: pointer;
+
 }
